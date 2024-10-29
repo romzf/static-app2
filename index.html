@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<!-- Mobile Responsive meta tag-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title></title>
+	<title>EzRecipe</title>
 	
-
+	
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	
@@ -19,10 +19,193 @@
 	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
+	<!-- navbar -->
+	<nav id="navbar" class="navbar navbar-light sticky-top navbar-expand-lg py-1" >
+		<div class="container-fluid ps-5">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse pe-5" id="navbarNav">
+				<div class="navbar-nav ms-auto">
+					<a class="nav-link" href="#home">HOME</a>
+					<a class="nav-link" href="#featured">FEATURED</a>
+					<a class="nav-link" href="#about">ABOUT</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- end of navbar -->
+	
+	<!-- home -->
+	<section id="home"> 
+		<!-- introduction -->
+		<div id="introduction" class="d-flex justify-content-md-center">
+			<div class="my-auto ps-5 mt-5">	
+				<h1 id="title">Welcome to EzRecipe EduHub</h1>
+				<p id="title-base">Meal Magic: Quick Recipes for Every Occasion!</p>
+			</div>
+		</div>
+		<!-- introduction end -->
+		
+		<!-- featured -->
+		<div id="featured">
+			<h2 class="text-center">Featured Recipes</h2>
+			<div class="card-group small-card-group p-5">
+				<div class="card p-2">
+					<img src="./images/PastaPrimavera.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Pasta Primavera</h5>
+						<p class="card-text">Pasta Primavera is a vibrant and colorful dish that celebrates fresh vegetables. Originating from Italy, this dish is perfect for showcasing seasonal produce.</p>
+						<a href="#" class="btn btn-primary">Open Recipe</a>
+					</div>
+				</div>
+				<div class="card p-2">
+					<img src="./images/ScrambledEggswithCheese.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Scrambled Eggs with Cheese</h5>
+						<p class="card-text">A classic breakfast dish, scrambled eggs with cheese is quick, creamy, and satisfying. You can add extra toppings like chives or spinach to make it even more delicious.</p>
+						<a href="#" class="btn btn-primary">Open Recipe</a>
+					</div>
+				</div>
+				<div class="card p-2">
+					<img src="./images/PestoPasta.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Pesto Pasta</h5>
+						<p class="card-text">Pesto Pasta is a flavorful and aromatic dish made with fresh basil pesto. The vibrant green sauce is blended with olive oil, garlic, and nuts, delivering a fresh and herby taste.</p>
+						<a href="#" class="btn btn-primary">Open Recipe</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- featured end -->
+		
+	</section>
+	<!-- home end -->
+	
+	<section id="categories-section"> 
+		<h2 class="text-center">Categories</h2>
+		<div id="categories" class="justify-content-center">
+			<div id="resources">
+				<div class="d-flex justify-content-center m-3">
+					<!-- button 1 -->
+					<button 
+						class="btn btn-primary me-3" 
+						type="button" 
+						data-bs-toggle="collapse" 
+						data-bs-target="#collapse1" 
+						aria-expanded="false" 
+						aria-controls="collapse1">
+						Pasta
+					</button>
+					<!-- button 2 -->
+					<button 
+						class="btn btn-primary" 
+						type="button" 
+						data-bs-toggle="collapse" 
+						data-bs-target="#collapse2" 
+						aria-expanded="false" 
+						aria-controls="collapse2">
+						Egg
+					</button>
+				</div>
+				
+				<!-- collapse 1 -->
+				<div class="collapse" id="collapse1">
+					<h4 class="text-center">Pasta Recipe</h4>
+					<div class="card-group small-card-group p-5">
+						<div class="card">
+							<img src="./images/PastaPrimavera.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Pasta Primavera</h5>
+								<p class="card-text">Pasta Primavera is a vibrant and colorful dish that celebrates fresh vegetables. Originating from Italy, this dish is perfect for showcasing seasonal produce.</p>
+								<a href="#" class="btn btn-primary">Open Recipe</a>
+							</div>
+						</div>
+						<div class="card p-2">
+							<img src="./images/PestoPasta.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Pesto Pasta</h5>
+								<p class="card-text">Pesto Pasta is a flavorful and aromatic dish made with fresh basil pesto. The vibrant green sauce is blended with olive oil, garlic, and nuts, delivering a fresh and herby taste.</p>
+								<a href="#" class="btn btn-primary">Open Recipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- collapse 2 -->
+				<div class="collapse" id="collapse2">
+					<h4 class="text-center">Egg Recipe</h4>
+					<div class="card-group small-card-group p-5">
+						<div class="card p-2">
+							<img src="./images/Avocado&EggToast.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Avocado & Egg Toast</h5>
+								<p class="card-text">This trendy and healthy breakfast is packed with protein and healthy fats. It’s quick to make and perfect for a nutritious start to your day.</p>
+								<a href="#" class="btn btn-primary">Open Recipe</a>
+							</div>
+						</div>
+						<div class="card p-2">
+							<img src="./images/ScrambledEggswithCheese.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Scrambled Eggs with Cheese</h5>
+								<p class="card-text">A classic breakfast dish, scrambled eggs with cheese is quick, creamy, and satisfying. You can add extra toppings like chives or spinach to make it even more delicious.</p>
+								<a href="#" class="btn btn-primary">Open Recipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+			</div>
+			
 
+		</div>
 	
-	<!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	
+	</section>
+
+	<section id="about" class="mt-5 py-3"> 
+		<h1 class="text-center">About Us</h1>
+
+		<div id="contact" class="row">
+			<div id="contact-container" class="col-12 col-md-6 py-3 p-5">
+				<h3 id="contact-id">Contac Us</h3>
+				<form id="contact-form" class=" container mt-3 collapse show">
+					<div class="form-group my-4">
+						<label for="exampleFormControlInput1" class="form-label">Name</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="eg. John Doe">
+					</div>
+					<div class="form-group my-4">
+						<label for="exampleFormControlInput1" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. john.doe@mail.com">
+					</div>
+					<div class="form-group my-4">
+						<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<div class="d-flex justify-content-end">
+						<button id="form-btn" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#contact-form, #form-btn2">
+							Submit
+						</button>
+					</div>
+				</form>
+				<div class="my-5 d-flex justify-content-start">
+					<button id="form-btn2" class="btn collapse" data-bs-toggle="collapse" data-bs-target="#contact-form, #form-btn2">Send another message</button>
+				</div>
+			</div>
+			
+			<div id="mission" class="col-12 col-md-6 py-3 p-5">
+				<h3 class="text-center">Our Mission</h3>
+				<p>Our mission is to empower aspiring cooks of all ages with simple, delicious, and accessible recipes that inspire confidence in the kitchen. We believe that cooking should be enjoyable and stress-free, enabling everyone to create nutritious meals and Open Recipe culinary creativity without the fuss. Through clear instructions, engaging content, and a supportive community, we aim to make cooking a delightful experience for all.</p>
+			</div>
+			
+		</div>
+	</section>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

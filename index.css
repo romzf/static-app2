@@ -7,3 +7,102 @@
 }
 /*  -- End of CSS Reset and font -- */
 
+/*  -- navbar -- */
+#navbar {
+	background-color: #c4ae66;
+}
+
+.nav-link {
+
+	color: #ffffff !important;
+}
+
+#logo {
+
+	background: 
+		url("./images/Logo.png");
+
+	width: 35px;
+	height: 35px;
+	background-size: cover;
+	border-radius: 30px;
+}
+/* -- end of navbar -- */
+
+
+#form-btn, #form-btn2{
+    padding: 12px 32px 12px 32px;
+    gap: 8px;
+    border-radius: 999px;
+    background: #0C5996;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color:#FFFFFF;
+
+}
+
+#contact h4 {
+
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 24.38px;
+	text-align: left;
+	color: #D8F9FF;
+
+}
+
+#contact label {
+
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24.38px;
+	text-align: left;
+	color: #0C5996;
+
+}
+
+#contact input {
+
+	border: 1px solid #0C5996;
+
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29.26px;
+	text-align: left;
+	color: #0C5996;
+
+}
+
+#contact textarea {
+	color: #765C3D;
+	border: 1px solid #0C5996;
+	height: 210px;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29.26px;
+	text-align: left;
+
+}
+
+#about{
+    background-color: #efe4c1;
+}
+
+.small-card-group .card {
+	flex: 1 0 150px; /* set base size for each card */
+	max-width: 1000px; /* restrict maximum width */
+	margin: 5px; /* space between cards */
+  }
+
+  .small-card-group .card img {
+	height: 200px; /* adjust image height */
+	object-fit: cover;
+  }
+  
