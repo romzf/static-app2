@@ -1,0 +1,9 @@
+/* -- CSS Reset and font -- */
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Montserrat;
+}
+/*  -- End of CSS Reset and font -- */
+
